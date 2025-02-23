@@ -38,6 +38,7 @@ public class StringUtils {
                 case 'i' -> '1';
                 case 'e' -> '3';
                 case 'o' -> '0';
+                case 'a' -> '4';
                 default -> ch;
             };
             result.append(ch);
